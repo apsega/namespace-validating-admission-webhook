@@ -1,0 +1,13 @@
+{
+  "name": "validating_webhook",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Edgaras Apšega",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
