@@ -12,8 +12,8 @@ var bodyParser  = require('body-parser');
 // var restClient = require('node-rest-client').Client;
 // var router = express.Router();
 
-var allowed_namespaces = ["kube-system", "test"];
-var restricted_node_roles = [ "critical" ]
+var allowed_namespaces = ["kube-system"];
+var restricted_node_roles = [ "critical", "master" ]
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json()); 
